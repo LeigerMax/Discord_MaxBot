@@ -7,7 +7,7 @@ from discord.ext import commands
 from discord.utils import get
 
 #Créer le bot
-jeton = "NzExNzUzNTUxNTcxMDU4NzY4.XsLWuQ.wCEJKawsNuT0k5eUUgXOInjBicE"
+jeton = "NzExNzUzNTUxNTcxMDU4NzY4.XsL57g.h_PkzlG5rQGwr6x7c0rqkVRr1Rw"
 bot = commands.Bot(command_prefix='!!')
 
 players = {}
