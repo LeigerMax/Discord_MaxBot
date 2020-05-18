@@ -3,7 +3,7 @@
 ## A faire commande :
 - [X]  !!Kick @pseudo : Kick un user
 - [X]  !!ban @pseudo : Ban un user
-- [X]  !!avertissement @pseudo : Avertir un user
+- [X]  !!avert @pseudo : Avertir un user
 - [X]  !!8ball : Question/Reponse
 - [X]  !!clear : Effacer les messages récent dans un channel
 - [ ]  !!ping : Ping du serveur
