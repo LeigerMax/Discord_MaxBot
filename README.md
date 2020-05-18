@@ -6,7 +6,7 @@
 - [X]  !!avert @pseudo : Avertir un user
 - [X]  !!8ball : Question/Reponse
 - [X]  !!clear : Effacer les messages récent dans un channel
-- [ ]  !!ping : Ping du serveur
+- [X]  !!ping : Ping du serveur
 - [ ]  !!regles : Afficher les règles
 - [ ]  !!reglesCreate : Ajouter des règles
 - [ ]  !!reglesDelete : Supprimer des règles
