@@ -17,10 +17,14 @@
 - [ ]  !!whois @pseudo : Affiche la description du membre
 - [ ]  !!gif : Affiche des gifs
 - [ ]  !!picture : Affiche des images
-- [X]  !!infoBot :: Information sur le bot
+- [X]  !!infoBot : Information sur le bot
+- [X]  !!roll : Un chiffre entre 0 et 100
+- [X]  !!invite : Permet de générer un lien d'invitation
 - [ ]  .
-
-
+- [ ]  .
+- [ ]  .
+- [ ]  .
+  
 ## A faire Log :
 - [X]  Join : affiche les joueurs qui rejoint
 - [ ]  Leave : affiche les joueurs qui quitte
