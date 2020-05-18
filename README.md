@@ -27,7 +27,7 @@
   
 ## A faire Log :
 - [X]  Join : affiche les joueurs qui rejoint
-- [ ]  Leave : affiche les joueurs qui quitte
+- [X]  Leave : affiche les joueurs qui quitte
 - [ ]  Affiche les messages que les membres envoie
 - [ ]  Affiche les messages supprimer par les membres
 - [ ]  Affiche quand un membre rejoint un vocal
