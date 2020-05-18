@@ -7,7 +7,7 @@ from discord.ext import commands
 from discord.utils import get
 
 #Créer le bot
-jeton = ""
+jeton = "NzExNzUzNTUxNTcxMDU4NzY4.XsLWuQ.wCEJKawsNuT0k5eUUgXOInjBicE"
 bot = commands.Bot(command_prefix='!!')
 
 players = {}
@@ -65,6 +65,12 @@ async def leave(ctx):
     else :
         await ctx.send('Pas dans un chanel')
 
+@bot.command()
+@commands.has_permissions(manage_messages=True)
+async def clear(ctx, amount=2):
+    if amount < 21 :
+        await ctx.channel.purge(limit=amount)
+
 
 #Lance le bot
 print("lancement du bot ...")
@@ -77,7 +83,4 @@ async def _8ball(ctx,*,question):
     responses = ['Max est le meilleur', 'Max is best']
     await ctx.send(f'Question : {question}\nRéponse : {random.choice(responses)}')
 
-@bot.command()
-@commands.has_permissions(manage_messages=True)
-async def clear(ctx, amount=5):
-    await ctx.channel.purge(limit=amount)
+

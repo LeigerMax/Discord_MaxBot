@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class help(commands.Cog) :
+class CommandeUser(commands.Cog) :
 
     def __init__(self, bot):
         self.bot = bot
@@ -18,4 +18,4 @@ class help(commands.Cog) :
 
 
 def setup(bot):
-    bot.add_cog(help(bot))
+    bot.add_cog(CommandeUser(bot))
