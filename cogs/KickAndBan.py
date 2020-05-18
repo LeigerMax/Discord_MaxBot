@@ -1,4 +1,5 @@
 import discord
+import json
 from discord.ext import commands
 
 class KickAndBan(commands.Cog) :
@@ -23,7 +24,7 @@ class KickAndBan(commands.Cog) :
     @commands.command()
     # @commands.has_role("Admin")
     @commands.has_permissions(administrator=True)
-    async def warning(self,ctx, membre: discord.Member):
+    async def avert(self,ctx, membre: discord.Member):
         pseudo = membre.mention
         id = membre.id
 
@@ -37,6 +38,10 @@ class KickAndBan(commands.Cog) :
             await membre.send("Vous avez été éjecté du serveur ! Trop d'avertissements !")
             await membre.kick()
 
+        with open('warnings.json', 'w') as outfile:
+            json.dump(self.warnings, outfile)
+
+        await ctx.send(f"Le membre {pseudo} a reçu une alerte ! Attention à bien respecter les regles")
 
     @commands.command()
     @commands.has_permissions(administrator=True)
@@ -57,7 +62,7 @@ class KickAndBan(commands.Cog) :
                 return
 
     #Error
-    @warning.error
+    @avert.error
     async def on_command_error(self,ctx, error):
         if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send("Tu dois faire !!warning @pseudo")
