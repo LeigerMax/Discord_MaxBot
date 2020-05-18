@@ -17,7 +17,7 @@
 - [ ]  !!whois @pseudo : Affiche la description du membre
 - [ ]  !!gif : Affiche des gifs
 - [ ]  !!picture : Affiche des images
-- [ ]  .
+- [X]  !!infoBot :: Information sur le bot
 - [ ]  .
 
 
