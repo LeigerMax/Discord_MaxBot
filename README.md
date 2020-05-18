@@ -10,8 +10,8 @@
 - [ ]  !!regles : Afficher les règles
 - [ ]  !!reglesCreate : Ajouter des règles
 - [ ]  !!reglesDelete : Supprimer des règles
-- [ ]  !!join : Le bot rejoint le channel vocal
-- [ ]  !!leave : Le bot quitte le channel vocal
+- [X]  !!join : Le bot rejoint le channel vocal
+- [X]  !!leave : Le bot quitte le channel vocal
 - [ ]  !!play <lien> : lance de la musique en vocal
 - [ ]  !!whome : Permet de faire une mini description du membre
 - [ ]  !!whois @pseudo : Affiche la description du membre
