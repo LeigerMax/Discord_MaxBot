@@ -1,47 +1,88 @@
-# Discord_MaxBot
 
-## A faire commande :
-- [X]  !!Kick @pseudo : Kick un user
-- [X]  !!ban @pseudo : Ban un user
-- [X]  !!avert @pseudo : Avertir un user
-- [X]  !!8ball : Question/Reponse
-- [X]  !!clear : Effacer les messages récent dans un channel
-- [X]  !!ping : Ping du serveur
-- [ ]  !!regles : Afficher les règles
-- [ ]  !!reglesCreate : Ajouter des règles
-- [ ]  !!reglesDelete : Supprimer des règles
-- [X]  !!join : Le bot rejoint le channel vocal
-- [X]  !!leave : Le bot quitte le channel vocal
-- [ ]  !!play <lien> : lance de la musique en vocal
-- [ ]  !!whome : Permet de faire une mini description du membre
-- [ ]  !!whois @pseudo : Affiche la description du membre
-- [ ]  !!gif : Affiche des gifs
-- [ ]  !!picture : Affiche des images
-- [X]  !!infoBot : Information sur le bot
-- [X]  !!roll : Un chiffre entre 0 et 100
-- [X]  !!invite : Permet de générer un lien d'invitation
-- [ ]  .
-- [ ]  .
-- [ ]  .
-- [ ]  .
-  
-## A faire Log :
-- [X]  Join : affiche les joueurs qui rejoint
-- [X]  Leave : affiche les joueurs qui quitte
-- [ ]  Affiche les messages que les membres envoie
-- [ ]  Affiche les messages supprimer par les membres
-- [ ]  Affiche quand un membre rejoint un vocal
-- [ ]  Affiche quand un membre quitte un vocal
+![Generic badge](https://img.shields.io/badge/STATUT-ABANDONED-red.svg)   ![Generic badge](https://img.shields.io/badge/VERSION-0.1-green.svg) ![Generic badge](https://img.shields.io/badge/PROJET-Personnel-blue.svg)
 
-## A faire Event
-- [ ]  Accepter les règles via un emoji
-- [ ]  Choisir rôle via un emoji
-- [ ]  Avertir quand il a une nouvelle vidéo sur youtube
-- [ ]  Afficher un message de Bienvenue aux nouveaux membres
-- [ ]  Afficher des message tout les X Temps
-- [ ]  .
 
-## A faire Bot
-- [X]  load, unload, reaload (class) : permet de lancer/arrêter/relancer une classe
-- [ ]  .
-- [ ]  .
+# Discord MaxBot
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      </li>
+         <li>
+      <a href="#tasks">Tasks</a>
+       <ul>
+      <li>
+      <a href="#to-do-command">To do command</a>
+      </li>
+            <li>
+      <a href="#to-do-Log">To do Log</a>
+      </li>
+                  <li>
+      <a href="#to-do-event">To do Event</a>
+      </li>
+                        <li>
+      <a href="#to-do-bot">To do Bot</a>
+      </li>
+      </ul>
+    </li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#-build-with">Build with</a></li>
+  </ol>
+</details>
+
+
+## About The Projet
+My personal bot discord.
+
+## Tasks
+### To do command
+- [X] !!Kick @pseudo : Kick a user
+- [X] !!ban @pseudo : Ban a user
+- [X] !!avert @pseudo : Warn a user
+- [X] !!8ball : Question/Answer
+- [X] !!clear : Clear recent messages in a channel
+- [X] !!ping : Ping the server
+- [ ] !!regles : Display rules
+- [ ] !!reglesCreate : Add rules
+- [ ] !!reglesDelete : Delete rules
+- [X] !!join : The bot joins the voice channel
+- [X] !!leave : The bot leave the vocal channel
+- [ ] !!play <link> : play music in voice
+- [ ] !!whome : Allows to make a mini description of the member
+- [ ] !!whois @pseudo: Displays the description of the member
+- [ ] !!gif : Display gifs
+- [ ] !!picture : Display pictures
+- [X] !!infoBot : Information about the bot
+- [X] !!roll : A number between 0 and 100
+- [X] !!invite : Allows to generate an invitation link
+- [ ] .
+
+### To do Log 
+- [X] Join : show players who join
+- [X] Leave : show players who leave
+- [ ] Display messages that members send
+- [ ] Displays messages deleted by members
+- [ ] Display when a member joins a voice
+- [ ] Displays when a member leaves a voice
+
+### To do Event
+- [ ] Accept rules via emoji
+- [ ] Choose role via emoji
+- [ ] Warn when there is a new video on youtube
+- [ ] Display a Welcome message to new members
+- [ ] Display messages every X time
+- [ ] .
+
+### To do Bot
+- [X] load, unload, reaload (class) : allow to launch/stop/relaunch a class
+- [ ] .
+
+
+## Authors
+- [@LeigerMax](https://github.com/LeigerMax) 
+
+
+## 🛠 Build with
+- Python
+
